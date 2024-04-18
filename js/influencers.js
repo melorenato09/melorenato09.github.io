@@ -85,7 +85,7 @@ class CommandsInfluencer extends Influencer {
   }
 }
 
-class DuckDuckGoInfluencer extends Influencer {
+class GoogleInfluencer extends Influencer {
   constructor({ queryParser }) {
     super(...arguments);
   }
@@ -95,7 +95,7 @@ class DuckDuckGoInfluencer extends Influencer {
     if (!query) return Promise.resolve([]);
 
     return new Promise(resolve => {
-      const endpoint = 'https://duckduckgo.com/ac/';
+      const endpoint = 'https://google.com';
       const callback = 'autocompleteCallback';
 
       window[callback] = res => {
