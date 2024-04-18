@@ -7,9 +7,9 @@ const CONFIG = {
      * Update line 11 and 13 if you prefer using Google.
      */
     commands: [{
-        name: 'DuckDuckGO',
+        name: 'Google',
         key: '*',
-        url: 'https://duckduckgo.com',
+        url: 'https://google.com',
         search: '/?q={}'
       },
   
@@ -59,7 +59,7 @@ const CONFIG = {
         category: 'Programação',
         name: 'GitHub',
         key: 'gt',
-        url: 'https://github.com/Matelios',
+        url: 'https://github.com/melorenato09',
         color: 'linear-gradient(135deg, #33373A, #484949)',
         icon: 'github',
       },
@@ -75,7 +75,7 @@ const CONFIG = {
         category: 'Programação',
         name: 'WebForma',
         key: 'wb',
-        url: 'http://epl.webforma.pt/?erro=Acesso+n%C3%A3o+autorizado!',
+        url: 'http://epl.webforma.pt',
         color: '#004daa',
         icon: 'webforma',
       },
@@ -142,7 +142,7 @@ const CONFIG = {
         category: 'Social',
         name: 'AniList',
         key: 'al',
-        url: 'https://anilist.co/user/Matelios/',
+        url: 'https://anilist.co',
         color: '#0B1622',
         icon: 'anilist',
       },
@@ -178,7 +178,7 @@ const CONFIG = {
         limit: 2
       },
       {
-        name: 'DuckDuckGo',
+        name: 'Google',
         limit: 2
       },
     ],
