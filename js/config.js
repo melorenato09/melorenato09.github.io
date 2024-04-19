@@ -9,7 +9,7 @@ const CONFIG = {
   commands: [{
       name: 'Google',
       key: '*',
-      url: 'https://google.com',
+      url: 'https://google.com/',
       search: '/?q={}'
     },
 
