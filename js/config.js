@@ -117,7 +117,7 @@ const CONFIG = {
       name: 'Twitter',
       key: 'x',
       url: 'https://www.twitter.com',
-      color: 'linear-gradient(135deg, #fff, #000)',
+      color: 'linear-gradient(135deg, #000, #fff )',
       icon: 'twitter'
     },
     {
