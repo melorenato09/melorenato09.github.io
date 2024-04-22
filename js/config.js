@@ -152,6 +152,14 @@ const CONFIG = {
       color: '#141526',
       icon: 'speedtest',
     },
+    {
+      category: 'Geral',
+      name: 'Canva',
+      key: 'cv',
+      url: 'https://www.canva.com/',
+      color: '#a570ff',
+      icon: 'canva',
+    },
 
 
   ],
