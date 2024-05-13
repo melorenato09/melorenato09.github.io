@@ -165,7 +165,7 @@ const CONFIG = {
       name: 'Discord',
       key: 'dc',
       url: 'https://www.discord.com/',
-      color: 'rgba(88,101,242,0)',
+      color: '#00b0f4',
       icon: 'discord',
     },
 
