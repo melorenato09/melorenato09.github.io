@@ -160,6 +160,14 @@ const CONFIG = {
       color: '#a570ff',
       icon: 'canva',
     },
+    {
+      category: 'Social',
+      name: 'Discord',
+      key: 'dc',
+      url: 'https://www.discord.com/',
+      color: 'rgba(88,101,242,0)',
+      icon: 'discord',
+    },
 
 
   ],
