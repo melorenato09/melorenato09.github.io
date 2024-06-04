@@ -22,6 +22,14 @@ const CONFIG = {
     },
     {
       category: 'Geral',
+      name: 'Facebbok',
+      key: 'fb',
+      url: 'https://www.facebook.com/',
+      color: '#0866FF',
+      icon: 'facebook'
+    },
+    {
+      category: 'Geral',
       name: 'Pinterest',
       key: 'pt',
       url: 'https://www.pinterest.pt',
