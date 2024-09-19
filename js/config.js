@@ -22,7 +22,7 @@ const CONFIG = {
     },
     {
       category: 'Geral',
-      name: 'Facebbok',
+      name: 'Facebook',
       key: 'fb',
       url: 'https://www.facebook.com/',
       color: '#0866FF',
