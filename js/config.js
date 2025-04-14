@@ -176,6 +176,14 @@ const CONFIG = {
       color: '#00b0f4',
       icon: 'discord',
     },
+    {
+      category: 'Geral',
+      name: 'Planeador',
+      key: 'pd',
+      url: 'https://melorenato09.github.io/planeador.github.io/',
+      color: '#00008B',
+      icon: 'planeador',
+    },
 
 
   ],
