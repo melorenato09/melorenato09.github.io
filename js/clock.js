@@ -10,6 +10,7 @@ class Clock {
   
     _setTime() {
       const date = new Date();
+      const seconds = $.pad(date.getSeconds());
       let hours = $.pad(date.getHours());
       let amPm = '';
   
@@ -24,7 +25,7 @@ class Clock {
       }
   
       const minutes = $.pad(date.getMinutes());
-      this._el.innerHTML = `${hours}${this._delimiter}${minutes}${amPm}`;
+      this._el.innerHTML = `${hours}${this._delimiter}${minutes}${this._delimiter}${seconds}${amPm}`;
       this._el.setAttribute('datetime', date.toTimeString());
     }
   
